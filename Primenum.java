@@ -17,14 +17,14 @@ public class Primenum {
     }
     public static void main(String[] args){
         int n;
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the num");
-        n = scanner.nextInt();
-        if(isPrime(n)){
-            System.out.println("Prime");
-        }else{
-            System.out.println("Not Prime");
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Enter the num");
+            n = scanner.nextInt();
+            if(isPrime(n)){
+                System.out.println("Prime");
+            }else{
+                System.out.println("Not Prime");
+            }
         }
-        scanner.close();
     }
 }
