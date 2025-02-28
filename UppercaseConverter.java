@@ -1,3 +1,6 @@
+/*
+ * Use the java inbuilt function toUpperCase()
+ */
 import java.util.Scanner;
 
 public class UppercaseConverter {
