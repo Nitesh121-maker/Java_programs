@@ -1,3 +1,10 @@
+/**
+ * Split the string
+ * the intilize a string longest word
+ * Run loop through the words array 
+ * check if the length of the word id greater 
+ * then put the value of word in longestword
+ */
 import java.util.Scanner;
 
 public class LongestWord {
