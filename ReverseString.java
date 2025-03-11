@@ -1,7 +1,6 @@
+// This String reverse is performed using the StringBuilder function
+
 import java.util.Scanner;
-
-import javax.naming.spi.DirStateFactory.Result;
-
 public class ReverseString {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
